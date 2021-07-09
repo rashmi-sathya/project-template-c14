@@ -45,14 +45,21 @@ function draw() {
     
   }
   
-  //creating continous balloons
+  //change the value of the random balloon to 4 
   var select_balloon = Math.round(random(1,1));
   
   if (World.frameCount % 100 == 0) {
-    if (select_balloon == 1) {
-      redBalloon();
-    }
-  }
+   switch(select_balloon){
+    case 1: //call the redballoon
+    break;
+    case 2://call the blueballoon
+    break;
+    case 3://call the greenballoon
+    break;
+    case 4://call the pinkballoon
+break;
+
+  }}
   
   drawSprites();
 }
@@ -80,13 +87,22 @@ function redBalloon() {
 }
 
 function blueBalloon() {
-  //write code for spwaning blue balloons
-}
+  //createSprite for the balloon 
+  //addImage for the  balloon
+  //add velocity to make the balloon move
+  //change the scale of the balloon
+  //add the lifetime of the balloon}
 
 function greenBalloon() {
-  //write code for spwaning green balloons
-}
+  //createSprite for the balloon 
+  //addImage for the  balloon
+  //add velocity to make the balloon move
+  //change the scale of the balloon
+  //add the lifetime of the balloon}
 
 function pinkBalloon() {
-  //write code for spwaning pink balloons
-}
+  //createSprite for the balloon 
+  //addImage for the  balloon
+  //add velocity to make the balloon move
+  //change the scale of the balloon
+  //add the lifetime of the balloon}
