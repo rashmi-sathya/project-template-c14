@@ -91,18 +91,21 @@ function blueBalloon() {
   //addImage for the  balloon
   //add velocity to make the balloon move
   //change the scale of the balloon
-  //add the lifetime of the balloon}
+  //add the lifetime of the balloon
+}
 
 function greenBalloon() {
   //createSprite for the balloon 
   //addImage for the  balloon
   //add velocity to make the balloon move
   //change the scale of the balloon
-  //add the lifetime of the balloon}
+  //add the lifetime of the balloon
+}
 
 function pinkBalloon() {
   //createSprite for the balloon 
   //addImage for the  balloon
   //add velocity to make the balloon move
   //change the scale of the balloon
-  //add the lifetime of the balloon}
+  //add the lifetime of the balloon
+}
